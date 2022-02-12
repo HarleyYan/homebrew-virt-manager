@@ -20,7 +20,7 @@ class VirtViewer < Formula
   depends_on "libvirt-glib"
   depends_on "pango"
   depends_on "shared-mime-info"
-  depends_on "spice-gtk"
+  depends_on "spice-gtk" => 0.38
   depends_on "spice-protocol"
 
   def install
